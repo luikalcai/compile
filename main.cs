@@ -14,7 +14,7 @@ void Ban(int i, int t)
         double sum = sumsOfWeights[i];
         entropies[i] = Math.Log(sum) - sumsOfWeightLogWeights[i] / sum;
     }
-
+//hello
 
   void Clear()
     {
