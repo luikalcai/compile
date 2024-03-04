@@ -26,7 +26,7 @@ void Ban(int i, int t)
                 for (int d = 0; d < 4; d++) compatible[i][t][d] = propagator[opposite[d]][t].Length;
             }
 
-            sumsOfOnes[i] = weights.Length;
+            sumsOfOnes[i] = weights.Length;//nice
             sumsOfWeights[i] = sumOfWeights;
             sumsOfWeightLogWeights[i] = sumOfWeightLogWeights;
             entropies[i] = startingEntropy;
